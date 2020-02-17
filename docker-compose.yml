@@ -5,4 +5,7 @@ services:
     build: .
     ports:
       - "1688:1688"
+    volumes:
+    #链接日志文件目录
+      - ./log:/var/log
     restart: always
