@@ -5,6 +5,7 @@ Deploy vlmcsd service on Docker container
 ```bash
 git clone https://github.com/Wind4/vlmcsd-docker.git vlmcsd
 cd vlmcsd
+mkdir log
 
 # Use docker-compose service
 docker-compose up -d
