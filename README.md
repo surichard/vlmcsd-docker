@@ -14,3 +14,7 @@ docker-compose up -d
 docker build -t vlmcsd .
 docker run -idt -p 1688:1688 vlmcsd
 ```
+
+check log
+docker ps -a
+docker-compose logs -f
