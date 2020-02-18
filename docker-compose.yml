@@ -7,5 +7,5 @@ services:
       - "1688:1688"
     volumes:
     #链接日志文件目录
-      - ./log:/var/log
+      - ./log/vlmcsd.log:/var/log/vlmcsd.log
     restart: always
